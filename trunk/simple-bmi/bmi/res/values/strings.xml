@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">bmi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="appName">Your BMI</string><string name="title_activity_bbmi">BbmiActivity</string>
+    <string name="lessthan15">Very severly underwight</string>
+    <string name="from15to16">Severly underweight</string>
+    <string name="from16to18.5">Underweight</string>
+    <string name="from18.5to25">Healthy</string>
+    <string name="from25to30">Overweight</string>
+    <string name="from30t035">Moderately obese</string>
+    <string name="from35to40">Severly obese</string>
+    <string name="over40">Ooo Boy </string>
+    
+
+</resources>
