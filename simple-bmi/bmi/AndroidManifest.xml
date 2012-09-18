@@ -13,7 +13,6 @@
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         <activity
             android:name=".BbmiActivity"
-            android:label="@string/title_activity_bbmi" 
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan|adjustResize"
                 >
