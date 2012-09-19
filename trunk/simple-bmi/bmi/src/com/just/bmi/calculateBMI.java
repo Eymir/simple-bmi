@@ -1,4 +1,4 @@
-package com.example.bmi;
+package com.just.bmi;
 
 public class calculateBMI {
 

@@ -1,7 +1,7 @@
 <resources>
 
-    <string name="app_name">bmi</string>
-    <string name="lessthan15">Very severly underweight</string>
+    
+    <string name="lessthan15">Very severly underweight</string><string name="app_name">Just BMI</string>
     <string name="from15to16">Severly underweight</string>
     <string name="from16to18.5">Underweight</string>
     <string name="from18.5to25">Healthy</string>
