@@ -66,28 +66,28 @@ public void startBMI (View view)
 	{
 		if(kgRadio.isChecked())
 		{
-			weightToPass=Integer.parseInt(weightchk);
+			weightToPass=Float.parseFloat(weightchk);
 		}
 		else
 		{
-			int poundToKg = Integer.parseInt( weightchk);
-			weightToPass = Math.round(poundToKg*0.45);
+			float poundToKg =Float.parseFloat( weightchk);
+			weightToPass = poundToKg*0.45;
 		}
 		
 		if(heightchkCM.length()!=0)
 		{
 		
-			heightTopass=Integer.parseInt(heightchkCM);
+			heightTopass=Float.parseFloat(heightchkCM);
 		}
 		else if(heightchkIn.length()!=0)
-		{					int ft=Integer.parseInt(heightchkFt);
-					int in=Integer.parseInt(heightchkIn) + ft*12;
+		{					float ft=Float.parseFloat(heightchkFt);
+					float in=Float.parseFloat(heightchkIn) + ft*12;
 					heightTopass=in*2.54;
 					
 		}
 		else 
 		{
-			int ft=Integer.parseInt(heightchkFt);
+			float ft=Float.parseFloat(heightchkFt);
 			heightTopass=ft*30.48;
 		}
 		calcBMI();
