@@ -1,4 +1,4 @@
-package com.example.bmi;
+package com.just.bmi;
 
 import android.os.Bundle;
 import android.app.Activity;
